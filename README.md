@@ -1,6 +1,8 @@
 # ttgo-diy
-Create your ttgo lora with parts
-Dos modelos de placas para armar una ttgo en formato largo, uno despues de otro, o mini, con la esp32 del lado de atras y lora y display del frente.
+Create your ttgo lora with parts.
+
+Two models of plates to assemble a ttgo in long format, With its elements one after another.
+Or the mini version, with the esp32 on the back side and Lora and oled display on the front.
 
 
 Version mini, doble side
