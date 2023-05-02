@@ -2,8 +2,30 @@
 Create your ttgo lora with parts.
 
 Two models of plates to assemble a ttgo in long format, With its elements one after another.
-Or the mini version, with the esp32 on the back side and Lora and oled display on the front.
+Or the mini version, with the esp32 on the back side Lora, and oled display on the front.
 
+This project is a copy with discrete components of the ttgo-lora model, focused on those who do not have the possibility of acquiring an original.
+
+Functioning:
+The device has a firmware recorded that reports on the web https://sondehub.org/ the detected meteorological probes. Provides information on altitude, temperature, humidity, and very precise coordinates of latitude and longitude.
+On the map you can see two states, the one of ascent and descent, changing the color of the globe. At the moment of descent, it calculates the fall zone with an error of less than 100 meters by prediction.
+
+![image](https://user-images.githubusercontent.com/100592663/235674420-163f5969-a0d4-40b0-904b-3ea78a7bb011.png)
+
+Setting:
+The device is configured with the data of the probe to be tracked, the license of the radio amateur that makes the capture and other data as seen in this video. https://youtu.be/HP3r6paxjF8
+
+Important:
+The probes work in the UHF band between 402Mhz and 405Mhz depending on the probe model and the location where it is launched. This band is not authorized to be used, only weather systems can use them.
+Also do not run Probes near the drop zone as it will report false data.
+
+
+# Español:
+
+Crea tu ttgo lora con piezas.
+
+Dos modelos de placas para montar un ttgo en formato largo, con sus elementos uno tras otro.
+O la versión mini, con el esp32 en la parte trasera, Lora y pantalla oled en la parte delantera.
 
 Este proyecto es una copia con componentes discretos del modelo ttgo-lora, enfocado para quienes no tienen la posibilidad de adquirir un original.
 
@@ -30,4 +52,5 @@ Version large, single side
 ![pcb long](https://user-images.githubusercontent.com/100592663/221630958-b474b4ca-ff23-4841-bbe9-71283537c87c.png)
 
 
+# Video
 https://youtube.com/shorts/UzUDJ2xq2zk
